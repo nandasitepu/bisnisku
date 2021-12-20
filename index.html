@@ -21,6 +21,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
+
+    <!-- Custom -->
+    <style>
+        body {
+ background-image: url("./assets/img/white-brick.jpg");
+ background-color: #cccccc;
+}
+    </style>
 </head>
 
 <body>
@@ -28,7 +36,7 @@
         <!-- Navigation-->
 
         <div>
-            <nav class="navbar navbar-expand-lg bg-white border">
+            <nav class="navbar navbar-expand-lg bg-light border border-dark border-3">
 
 
                 <a class="navbar-brand px-5" href="#">
@@ -56,8 +64,8 @@
                                 <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="RumahKost">
-                                <li><a class="dropdown-item" href="#">Dropdown link</a></li>
-                                <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                                <li><a class="dropdown-item" href="#">Fasilitas Bersama</a></li>
+                                <li><a class="dropdown-item" href="#">Lokasi Dekat Dengan</a></li>
                             </ul>
                         </div>
 
@@ -70,8 +78,8 @@
                                 <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="AyundaFood">
-                                <li><a class="dropdown-item" href="#">Dropdown link</a></li>
-                                <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                                <li><a class="dropdown-item" href="#">Menu</a></li>
+                                <li><a class="dropdown-item" href="#">Pesan Yuk</a></li>
                             </ul>
                         </div>
 
@@ -84,8 +92,8 @@
                                 <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="AyundaStore">
-                                <li><a class="dropdown-item" href="#">Dropdown link</a></li>
-                                <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                                <li><a class="dropdown-item" href="#">Barang</a></li>
+                                <li><a class="dropdown-item" href="#">Jasa</a></li>
                             </ul>
                         </div>
 
@@ -97,7 +105,7 @@
 
             <div class="card m-2">
                 <div class="card-body">
-                    <iframe width="100%" height="400" frameborder="0" style="border:0"
+                    <iframe width="100%" height="200" frameborder="0" style="border:0"
                         src="https://www.google.com/maps/embed/v1/place?q=rumah%20kost%20nanda&key=AIzaSyBTC_fHkXkD66HnDeTKqiWm3FvLUr4RnF8"
                         allowfullscreen></iframe>
                 </div>
@@ -112,10 +120,10 @@
                 <div class="row">
                     <div class=" col">
                         <div class="card mx-auto" style="width: 18rem;">
-                            <img src="./assets/img/RumahKost.png" class="card-img-top" alt="...">
-                            <div class="card-body">
+                            <img src="./assets/img/RumahKost.png" class="card-imgfooter" alt="...">
+                            <div class="card-footer bg-info ">
                                 <div class="text-center">
-                                    <a href="#" class="btn btn-outline-secondary">Lihat</a>
+                                    <a href="./pages/rumahKost.html" class="btn btn-info border-light text-light">Lihat</a>
                                 </div>
                             </div>
                         </div>
@@ -123,9 +131,9 @@
                     <div class="col">
                         <div class="card mx-auto" style="width: 18rem;">
                             <img src="./assets/img/AyundaFood.png" class="card-img-top" alt="...">
-                            <div class="card-body">
+                            <div class="card-footer bg-success">
                                 <div class="text-center">
-                                    <a href="#" class="btn btn-outline-success">Lihat</a>
+                                    <a href="./pages/ayundaFood.html" class="btn btn-success border-light">Lihat</a>
                                 </div>
                             </div>
                         </div>
@@ -133,9 +141,9 @@
                     <div class="col">
                         <div class="card d-grid mx-auto" style="width: 18rem;">
                             <img src="./assets/img/AyundaStore.png" class="card-img-top" alt="...">
-                            <div class="card-body">
+                            <div class="card-footer bg-danger">
                                 <div class="text-center">
-                                    <a href="#" class="btn btn-outline-danger">Lihat</a>
+                                    <a href="./pages/ayundaStore.html" class="btn btn-danger border-light">Lihat</a>
                                 </div>
                             </div>
                         </div>
@@ -145,7 +153,7 @@
         </div>
 
         <!-- Footer -->
-        <nav class="navbar navbar-expand-lg bg-info text-white border">
+        <nav class="navbar navbar-expand-lg bg-light border border-dark border-3">
             <div class="">
                 <div class="card-body">
                     <div class="row">
@@ -163,13 +171,13 @@
                         <!-- Footer Social Icons-->
                         <div class="col-lg-4 mb-5 mb-lg-0 p-2">
                             <h4 class="text-uppercase mb-4">Around the Web</h4>
-                            <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
+                            <a class="btn btn-outline-dark btn-social mx-1" href="#!"><i
                                     class="fab fa-fw fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
+                            <a class="btn btn-outline-dark btn-social mx-1" href="#!"><i
                                     class="fab fa-fw fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
+                            <a class="btn btn-outline-dark btn-social mx-1" href="#!"><i
                                     class="fab fa-fw fa-linkedin-in"></i></a>
-                            <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
+                            <a class="btn btn-outline-dark btn-social mx-1" href="#!"><i
                                     class="fab fa-fw fa-dribbble"></i></a>
                         </div>
                         <!-- Footer About Text-->
