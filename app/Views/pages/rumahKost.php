@@ -26,7 +26,111 @@
 </head>
 
 <body>
+        <!-- Header -->
+        <nav class="navbar navbar-expand-lg bg-light border border-dark border-3">
 
+
+            <a class="navbar-brand px-5" href="/">
+
+                <img src="./assets/img/BisnisKu.png" alt="" height="75px">
+                <span class="text-dark px-5">Rumah Kost, Ayunda Food, dan Ayunda Store</span>
+            </a>
+
+
+            <!-- Navbar Toggle -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Link -->
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <div class="btn-group btn-group-sm px-2 m-1">
+                        <button id="RumahKost" type="button" class="btn btn-light border-dark">
+                            <b>Rumah Kost Nanda</b>
+                        </button>
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="RumahKost">
+                            <li><a class="dropdown-item" href="#">Fasilitas Bersama</a></li>
+                            <li><a class="dropdown-item" href="#">Lokasi Dekat Dengan</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="btn-group btn-group-sm px-2 m-1">
+                        <button id="AyundaFood" type="button" class="btn btn-light border-dark">
+                            <b>Ayunda Food</b>
+                        </button>
+                        <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="AyundaFood">
+                            <li><a class="dropdown-item" href="#">Menu</a></li>
+                            <li><a class="dropdown-item" href="#">Pesan Yuk</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="btn-group btn-group-sm px-2 m-1">
+                        <button id="AyundaStore" type="button" class="btn btn-light border-dark">
+                            <b>Ayunda Store</b>
+                        </button>
+                        <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="AyundaStore">
+                            <li><a class="dropdown-item" href="#">Barang</a></li>
+                            <li><a class="dropdown-item" href="#">Jasa</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- Iframe -->
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSX4cwifq9cgULHr1OuO1OxYZUYP_-743vawEeLLylWJUnhPYYIfQyWR8aoRLCzSxFI3K61L-Kr7eJ8/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="550" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+        </iframe>
+
+
+        <!-- Footer -->
+        <nav class="navbar navbar-expand-lg bg-light border border-dark border-3">
+            <div class="">
+                <div class="card-body">
+                    <div class="row">
+                        <!-- Footer Location-->
+                        <div class="col-lg-5 mb-5 mb-lg-0 p-2">
+                            <h4 class="text-uppercase mb-4 ">Lokasi</h4>
+                            <p class="lead mb-0">
+                                Kramat Sentiong Gg. Mesjid No.F89
+                                <br>
+                                RT.03 / RW.06 Kel. Kramat Kec. Senen
+                                <br />
+                                Jakarta Pusat, 10450
+                            </p>
+                        </div>
+                        <!-- Footer Social Icons-->
+                        <div class="col-lg-4 mb-5 mb-lg-0 p-2">
+                            <h4 class="text-uppercase mb-4">Around the Web</h4>
+                            <a class="btn btn-outline-dark btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-dark btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                            <a class="btn btn-outline-dark btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-dark btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                        </div>
+                        <!-- Footer About Text-->
+                        <div class="col-lg-3 p-2">
+                            <h4 class="text-uppercase mb-4">Tentang Kami</h4>
+                            <p class="lead mb-0">
+                                Usaha Mandiri Keluarga
+                                <br>
+                                Rumah Kost Nanda, Ayunda Food, dan Ayunda Store
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
 </body>
 
 </html>

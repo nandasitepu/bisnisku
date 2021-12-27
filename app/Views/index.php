@@ -27,7 +27,6 @@
         }
     </style>
 </head>
-
 <body>
     <div class="container">
         <!-- Navigation-->
@@ -182,5 +181,5 @@
         </nav>
     </div>
 </body>
-
+ci_extend
 </html>
